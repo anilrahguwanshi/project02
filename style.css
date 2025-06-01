@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    background-color: #ffffff;
+}
+#nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+
+
+}
+#lnav{
+    font-size: 30px;
+
+}
+#mnav{
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.color{
+    color: rgb(111, 193, 193);
+}
+#rnav{
+    font-size: 20px;
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+}
+.key1 button{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 7px 15px;
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(39, 148, 148);
+    border-color: rgb(56, 229, 229);
+  
+}
+.key2 button{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 7px 15px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border-color: rgb(56, 229, 229);
+    background-color: rgb(147, 202, 202);
+
+}
+#heading h1{
+    font-size: 70px;
+    font-weight: 500;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+#heading p{
+    font-size: 20px;
+    padding-left: 50px;
+    padding-top: 20px;
+
+}
+#heading button{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 7px 15px;
+    border-radius: 10px;
+    border-color: rgb(94, 196, 212);
+    margin-left: 50px;
+    margin-top: 30px;
+    background-color: rgb(147, 202, 202);
+}
+#photo img{
+    position: absolute;
+    width: 400px;
+    top: 10%;
+    left: 70%;
+    transform: translateX(-50%)rotate(-90deg);
+    object-fit: cover;
+ 
+}
